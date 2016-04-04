@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Elemento (0x01) -->
+  <ContentType ID="0x010082B4C87C9B1846E9AEB3B0C2BBB8412B" Name="Sugerencias" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{6050539f-1858-4b46-a380-697f58377f67}" DisplayName="Asunto" Required="FALSE" Name="Asunto" />
+      <FieldRef ID="{dcf9e213-8923-4acc-9a0a-2d882d98a303}" DisplayName="Sugerencia" Required="FALSE" Name="Sugerencia" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
