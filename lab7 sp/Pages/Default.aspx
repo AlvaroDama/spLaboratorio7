@@ -43,7 +43,7 @@
         </div>
 
         <div>
-            <input type="button" onclick="createSugerencia();"/>
+            <input type="button" onclick="crearSugerencia();" value="Agregar" />
         </div>
     </div>
     
@@ -54,11 +54,19 @@
         <div class="item-display-line">
             <span class="item-display-label">Asunto:</span>
             <span id="item-display-asunto" class="item-display-field"></span>
+            <span class="item-votos-controls">
+                <a onclick="guardarVoto(true);">Si</a>
+                <a onclick="guardarVoto(false);">No</a>
+            </span>
         </div>
         
         <div class="item-display-line">
-            <span class="item-display-line">Sugenrencia:</span>
+            <span class="item-display-label">Sugerencia:</span>
             <span id="item-display-sugerencia" class="item-display-field"></span>
+            <span class="votos-display">
+                <span>Votos:</span>
+                <span id="votos-count"></span>
+            </span>
         </div>
     </div>
     

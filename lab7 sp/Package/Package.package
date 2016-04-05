@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="3e59ef92-0863-464d-93f6-2cba6f0aa6e2" 
-        solutionId="3e59ef92-0863-464d-93f6-2cba6f0aa6e2" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="lab7_sp"
-        sharePointProductVersion="16.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3e59ef92-0863-464d-93f6-2cba6f0aa6e2" solutionId="3e59ef92-0863-464d-93f6-2cba6f0aa6e2" resetWebServer="false" sharePointProductVersion="16.0" name="lab7_sp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
-        <featureReference itemId="c64e6c86-8ed6-4678-8cd0-b93859663b75" />
+    <featureReference itemId="c64e6c86-8ed6-4678-8cd0-b93859663b75" />
+    <featureReference itemId="65f236c5-75cc-45f5-9942-1bbef461f568" />
   </features>
 </package>

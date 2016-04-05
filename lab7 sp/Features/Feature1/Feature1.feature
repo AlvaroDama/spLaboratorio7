@@ -10,5 +10,8 @@
     <projectItemReference itemId="2a499691-9c68-4e9c-9d05-e81eae925f70" />
     <projectItemReference itemId="3057e560-6e91-4786-adcf-42731274c98e" />
     <projectItemReference itemId="e76aa2e9-1e86-4e70-817c-d280d3b23f15" />
+    <projectItemReference itemId="18b19c7e-76da-41df-a3f0-a09ba06f7948" />
+    <projectItemReference itemId="68cdb6e1-fae8-4e2d-8513-481db90a9f50" />
+    <projectItemReference itemId="4e4c2460-a9dd-4a23-aa8f-f49c87383170" />
   </projectItems>
 </feature>
